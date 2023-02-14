@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+header{
+    background-color: #77c9d4;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: #57BC90 3px solid;
+}
+
+section {
+    max-width: 1100px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+flex-direction: row;
+align-content: end;
+align-items: center;
+}
+/*0dddhhf*/
+
+section > div{
+    width: 25%;
+}
+
+div.Logo{
+    align-items: center;
+    float: left;
+    width: 25%;
+}
+
+div.Logo > a{
+    margin: 0px auto;
+}
+
+img.Logo    {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+}
+
+div.titulo{
+    align-items: center;
+    float: left;
+    width: 35%;
+}
+
+h1{
+    color: white;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 1em 0;
+    text-align: center;
+    margin: 0px auto;
+}
+
+div.boton_cursos{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 15%;
+}
+
+a.boton_cursos{
+    float:left;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+a.boton_cursos:hover{
+    background: #015249;
+ }
+
+div.boton_profes{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 15%;
+}
+
+a.boton_profes{
+    float:left;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+a.boton_profes:hover{
+    background: #015249;
+}
+
+a.cerrar_sesion{
+    float:left;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+a.cerrar_sesion:hover{
+    background: #015249;
+}
+
+/*CURSOS*/
+
+/*div.Nuevo_registro{
+    display: flex;
+    align-items: flex-end;
+}*/
+
+img.editar{
+    width: 40px;
+}
+
+img.eliminar{
+    width: 30px;
+}
+
+table.cursos,table.profesores{
+    margin: 1px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td.titulo_cursos,td.titulo_profesores{
+    background-color: #57BC90;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+td,th{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+td.celda_imagen{
+    text-align: center;
+}
+
+
+
+
+/*REGISTRO CURSOS*/
+
+div.todo{
+    max-width: 1100px;
+    margin: 40px auto;
+    height: 70%;
+}
+
+h2{
+    color: black;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    height: 40px;
+}
+
+div.form{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-color: #77c9d4;
+    margin: 0px auto
+}
+
+form{
+    margin: 0px auto;
+    display: block;
+    position: relative;
+}
+
+form > label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nuevo curso{
+    width: 100%;
+    text-align: center;
+}
+
+input#submit.submit_cursos{
+    display: block;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+input#submit.submit_profesor{
+    display: block;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*input{
+    width: 100%;
+    border: medium none !important;
+    margin-top: 10px;
+    padding: 0%;
+}*/
+
+
+textarea{
+    resize: none;
+}
+
+input.busqueda{
+background-size: 24px;
+  width: 500px;
+  border: transparent;
+  border-bottom: solid 1px #ccc;
+  padding: 10px 10px 10px 30px;
+  outline: none;
+}
+
+input.buscar{
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+input.buscar:hover{
+    background: #015249;
+ }
+
+ div.buscador{
+    width: 600px;
+    float: left;
+ }
+
+ div.Nuevo_registro{
+    height: 37px;
+    display: flex;
+    align-items: center;
+ }
+
+ a.boton_nuevo{
+    text-align: end;    
+    margin-right: 20px;
+    
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+    }
+
+a.boton_nuevo:hover{
+    background: #015249;
+}
+
+div.tabla{
+    margin-top: 25px;
+}
+
+/*LISTADO PROFESORES*/
+img{
+    width: 50px;
+}
+
+div.form_profesor{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #77c9d4;
+    margin: 0px auto
+}
+
+/*HOME*/
+div.todo_home{
+    width: 1000px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+div.home{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    float: inline-start;
+    display: block;
+    margin-top: 25px;
+}
+
+
+a.home > h1{
+    color: black;
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+a.home   > img{
+    width: 100%;
+}
+
+/*LOGIN*/
+div.login{
+    background: linear-gradient(#57BC90, #77c9d4);
+    width: 25%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 25px;
+    color: white;
+}
+
+form.login > input{
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    font-size: bold;
+}
+
+form.login > input.submit{
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+div.login > p{
+    margin-top: 10px;
+    text-align: center;
+}

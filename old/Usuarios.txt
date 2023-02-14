@@ -1,0 +1,15 @@
+Usuario Admin
+
+54907494p - admin
+
+Usuarios Profesores
+
+Raul: 12345678t - admin
+Iker: 54785478y - admin
+Laura: 87654321t - admin
+
+Usuarios Alumnos
+
+Alberto: 12345678a - admin
+Daniel: 12345678u - admin
+David2: 54907494p - admin

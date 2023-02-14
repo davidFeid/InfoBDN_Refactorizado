@@ -1,0 +1,192 @@
+html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    margin: 0 auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 0 50px #4f9;
+    background-color: white;
+}
+
+div.banner{
+    width: 50%;
+    background: linear-gradient(#57BC90, #77c9d4);   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.formulario{
+    width: 50%; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+h1{
+    color: black;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    height: 40px;
+}
+
+div.form{
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0px auto
+}
+
+form{
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 50%;
+}
+
+/*form > label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}*/
+
+form > div{
+    margin-top: 2%;
+}
+
+div.grupo > input{
+    outline: none;
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 2% 3%;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+}
+
+div.grupo > label{
+    display: block;
+    margin: 0 0 2%;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+input.inputfile{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+div.grupo_foto > label{
+    display: block;
+    margin: 0 0 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+img{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+img.upload{
+    width: 30px;
+    height: 30px;
+}
+
+div.banner > div.texto{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.banner > div.imagen{
+    width: 100%;
+}
+
+div.texto > *{
+margin: 0px auto;
+}
+
+h1.h1{
+    margin-top: 10%;
+    color: black;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    height: 40px;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+div.columna_foto{
+    display: flex;
+    flex-direction: row;
+}
+
+div.grupo_option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input#submit.submit_alumnos{
+    display: block;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: #57BC90;
+    padding: 4px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 0px auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
