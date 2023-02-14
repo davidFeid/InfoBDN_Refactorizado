@@ -189,6 +189,17 @@
             return $rows->fetchAll(PDO::FETCH_CLASS);
         }
 
+        public function validarDni(){
+            $sql = "SELECT * FROM profesores where dni = '".$this->dni."'";
+            $rows = $this->db->query($sql);
+            return ($rows->rowCount() == 0) ? true : false;
+        }
+
+        public function insertar(){
+            $sql = "INSERT INTO `alumnos` (`dni`, `nombre`, `apellido`, `edad`, `foto`,`mail` , `contraseña`, `activo`) VALUES ('$this->dni', '$this->nombre', '$this->apellido', '$this->edad', '$this->foto', '$this->mail', '".md5($this->contraseña)."', '1');";
+            $rows = $this->db->query($sql);
+        }
+
     }
 
 ?>

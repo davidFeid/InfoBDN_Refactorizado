@@ -169,7 +169,7 @@
         }
 
         public function insertar(){
-            $sql = "INSERT INTO `profesores` (`dni`, `nombre`, `apellido`, `titulo_academico`, `foto`, `contraseña`, `activo`) VALUES ('$this->dni', '$this->nombre', '$this->apellido', '$this->titulo_academico', '$this->foto', '".md5($this->contraseña)."', '0');";
+            $sql = "INSERT INTO `profesores` (`dni`, `nombre`, `apellido`, `titulo_academico`, `foto`, `contraseña`, `activo`) VALUES ('$this->dni', '$this->nombre', '$this->apellido', '$this->titulo_academico', '$this->foto', '".md5($this->contraseña)."', '1');";
             $rows = $this->db->query($sql);
         }
 

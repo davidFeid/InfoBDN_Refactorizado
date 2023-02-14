@@ -19,7 +19,7 @@
             <div class="grupo_boton">
                 <input type="Submit" value="Entrar" id="submit" class="submit_alumnos" />
             </div>
-            <p>No estas registrado? <a href='registro.php' class='boron_registrarse'>Registrarse Aqui!</a></p><br>
+            <p>No estas registrado? <a href='index.php?controller=Alumno&action=registro' class='boron_registrarse'>Registrarse Aqui!</a></p><br>
             <p>Ingresar como Admin? <a href='index.php?controller=Admin&action=login' class='boton_admin'>Acceder Aqui!</a></p>
         </form>
     <!--</div>-->
